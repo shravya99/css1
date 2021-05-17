@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cube</title>
+    <style>
+        .box{
+            width: 300px;
+            height: 300px;
+            border:2px solid black;
+            position:absolute;
+            margin:0 auto;
+
+        }
+        #front{
+            background-color:#fdcfdf;
+            transform: translateZ(150px);
+            
+        }
+        #back{
+            background-color:#93abd3;
+            transform: translateZ(150px);
+            transform: rotateY(180deg);
+            
+            
+        }
+        #top{
+            background-color:#892cdc;
+            transform: translateY(-150px);
+            transform: rotateX(90deg);
+
+            
+        }
+        #bottom{
+            background-color:#394867;
+            transform: translateY(150px);
+            transform: rotateX(90deg);
+            
+        }
+        #left{
+            background-color:#edf285;
+            transform: rotateY(-90deg);
+            transform: translateX(-150px);
+            
+        }
+        #right{
+            background-color:#e6739f;
+            transform:rotateY(90deg);
+            transform: translateX(150px);
+            
+            
+        }
+    </style>
+</head>
+<body>
+    
+    <div id="front" class="box">1</div>
+    <div id="back" class="box">2</div>
+    <div id="top" class="box">3</div>
+    <div id="bottom" class="box">4</div>
+    <div id="left" class="box">5</div>
+    <div id="right" class="box">6</div>
+    
+    
+</body>
+</html>

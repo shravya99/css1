@@ -1,0 +1,18 @@
+/* html{
+    background-color: rgba(0, 0, 225, 0.5);
+} */
+/* body{
+    background-image: url(/smallimages/mountain\ image.svg);
+    background-repeat: no-repeat;
+    /* background-size:400px 300px; */
+    /* background-size:200px;
+    background-position:center;
+    background-attachment:scroll;
+
+    } */
+    /* h1{color:green;}
+    h1{color:red;} */
+    /* due to specificity it takes the id properties first */
+    /* #specificity{color: salmon;}
+    .one{color: seagreen;} */
+    [width="100px"]{color: slateblue;}

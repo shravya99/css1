@@ -1,0 +1,7 @@
+@import "2.css";
+@import "3.css";
+h1{
+    background-color: salmon;
+    border:4px dotted seagreen;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}

@@ -1,0 +1,12 @@
+/* p{
+    background-color: snow;
+    color: violet;
+    border:2cm solid orange;
+} */
+@font-face{src: url(Henny_Penny/HennyPenny-Regular.ttf);
+    font-family: shravya;
+    font-style: italic;
+    font-weight: bold;
+
+}
+p{font-family: shravya;}

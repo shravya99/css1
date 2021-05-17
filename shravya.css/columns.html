@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>columns</title>
+    <style>
+        div{
+            column-count: 3;
+            column-gap: 10px;
+            column-rule-style: double;
+            column-rule-width: 5px; 
+            column-rule-color: darkorchid;
+            break-inside: avoid;
+        }
+        div h1{
+            column-span: all;
+        }
+        div .one{
+            page-break-inside:avoid;
+
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <h1>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dignissimos, deleniti?</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id nemo alias, iusto deleniti aliquid unde fugiat velit sunt nesciunt itaque porro nostrum provident harum culpa officiis amet distinctio impedit temporibus autem. 
+            <h1 class="one">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime, illo?</h1>Voluptatum ut ipsum, fuga eius, reiciendis consequuntur nobis quas, alias minus quia asperiores? Atque, placeat maiores sequi nesciunt nobis excepturi fugiat. Ut explicabo perferendis maiores ipsum consectetur nobis blanditiis adipisci nesciunt pariatur nostrum, aspernatur suscipit in deserunt magni ad! Cupiditate assumenda voluptate, corrupti minus necessitatibus labore rerum nostrum quia, veritatis nam exercitationem quaerat earum similique accusamus error at dolore libero ipsum nulla dolores voluptatibus? Nulla, omnis! Sunt, officiis consequuntur.</p>
+    </div>
+</body>
+</html>

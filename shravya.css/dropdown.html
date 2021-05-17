@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dropdown</title>
+    <style>
+        .dropdown{
+        position: relative;
+        display:block;
+    }
+    .dropdown-content{
+        display: none;
+        width:109px;
+        position: absolute;
+        border: 5px groove crimson;
+        background-color: darksalmon;
+        /* padding:5px 12px 5px 10px ; */
+    }
+    .dropdown:hover .dropdown-content{
+display:flex;
+background-color: rgb(102, 194, 224);
+border: 5px groove hotpink;
+    }
+    </style>
+</head>
+<body>
+    <div class="dropdown">
+<button style="height: 50px;width: 115px; font-size: 15px;">Hotel Menu</button>
+<div class="dropdown-content">
+    <ul>
+        <li>idli</li>
+        <li>vada</li>
+        <li>dosa</li>
+        <li>poori</li>
+    </ul>
+</div>
+    </div>
+</body>
+</html>

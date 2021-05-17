@@ -1,0 +1,10 @@
+h1{
+    padding: 10px;
+    border: 5px dotted rebeccapurple;
+    box-sizing:border-box;
+    /* if we give box sizing attribute it adjusts the value with the given width */
+    /* width: 300px;
+    height: 150px; */
+    /* border-radius: 10px; */
+    border-top-left-radius: 5px;
+}

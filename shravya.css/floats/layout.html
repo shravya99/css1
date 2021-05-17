@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>layout</title>
+    <style>
+        .container{
+            border: 2px double navy;
+        }
+        .container::after{
+            content:" ";
+            display: block;
+            clear: right;
+
+        }
+     div{
+         width: 100px;
+         height: 100px;
+         border:2px solid fuchsia;
+         margin: 5px;
+     }  
+     .one{
+         background-color: gray;
+         text-align: left;
+         /* float: left; */
+         float: right;
+         
+     }
+     .two{
+         background-color:aqua;
+         text-align: right;
+         /* margin-left: 20px; */
+         float: right;
+     }
+     .three{
+        background-color:pink;
+         text-align: left;
+         float: right;
+
+     }
+     
+  </style>
+</head>
+<body>
+    <section class="container">
+    <div class="one">box1</div>
+    <div class="two">box2</div>
+    <div class="three">box3</div>
+</section>
+</body>
+</html>

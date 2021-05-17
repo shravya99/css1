@@ -1,0 +1,76 @@
+body {
+    margin: 0;
+}
+.container {
+    border: 6px solid black;
+    display: grid;
+    /* grid-template-rows:100px 100px 100px; */
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows:1fr repeat(3);
+    /* grid-auto-rows:50px;
+    grid-auto-flow: row; */
+    /* grid-column-gap: 20px;
+    grid-row-gap:30px; */
+    /* grid-template-columns: repeat(3,50px 100px 200px); */
+    /* grid-template-columns:repeat(2,minmax(100px,500px)); */
+    /* grid-template-rows:repeat(2,minmax(150px,200px)); */
+    /* justify-content: center; */
+    /* align-content:end; */
+    /* justify-items: left; */
+    /* align-items:start; */
+    /* place-items:center left ; */
+    /* grid-template-areas:"header header header"
+                        "aside aside left"
+                        "aside middle left" ; */
+    height: 800px;
+}
+
+    .grid-item 
+    {
+        color: white;
+        font-size: 1.5rem;
+        padding: 1rem;
+        text-align: center;
+ }
+
+
+    .item-1 {
+        background-color: pink;
+        /* justify-self: end; */
+        /* grid-area:header; */
+        grid-column-start:1 ;
+        grid-column-end:4 ;
+        
+
+
+    }
+    .item-2 {
+        background-color: salmon;
+        /* justify-self: center; */
+    }
+    .item-3 {
+        background-color: #1C4C;
+        /* justify-self: end; */
+    }
+    .item-4 {
+        background-color: #CfBdcf;
+    }
+    .item-5 {
+        background-color: #6B0058;
+    }
+    .item-6 {
+        background-color: #1c4c1c;
+    }
+    .item-7 {
+        background-color: #351a20;
+        grid-column-start:3 ;
+        grid-column-end: 4;
+        /* grid-row: 3/5;*/
+        grid-row:3/ span 2;
+    }
+    .item-8 {
+        background-color: #5a8faf;
+    }
+    .item-9 {
+        background-color: #96ac59;
+    }

@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pseudo selectors</title>
+    <style>
+ /* check box is used in input type */
+input:checked{
+    height: 100px;
+    width: 100px;
+    background-color: darkturquoise;
+}
+/* active is used in when we press and hold the mouse  */
+a:active{color: deeppink;}
+
+input:disabled{background-color: forestgreen;}
+
+input:enabled{background-color: goldenrod;}
+
+p:empty{background-color: hotpink;
+height: 100px;
+width: 100px;}
+
+a:{color: yellow;background-color: black;}
+
+input:invalid{border: 2px solid pink;
+background-color: lawngreen;
+}
+p:lang(en){border: 2px solid black;}
+
+p:last-child{background-color: darkorange;}
+
+a:link{text-decoration: none;
+background-color: chartreuse;}
+
+h1:last-of-type{h1}
+
+
+a: visited;{background-color:yellow;color:black}
+
+input:valid{background-color: brown;}
+
+#first:target{background-color: chartreuse;
+color: navy;}
+
+input:required{background-color: darkmagenta;}
+
+:root{background-color: darkturquoise;}
+    </style>
+</head>
+<body>
+    <label for="">shravya</label>
+ <input type="checkbox">
+<a href="#">pseudo selectors</a>
+<input type="text" disabled>
+<input type="text" enabled>
+
+<a href="index1.html">clickhere</a>
+<p></p>
+<p>email</p>
+<input type="email" value="">
+
+<p lang="en">english</p>
+
+<p>going</p>
+<p>running</p>
+<p>walking</p>
+<p>eating</p>
+
+<div>
+<h1>one</h1>
+<p>two</p>
+<h1>three</h1>
+<p>shravya</p>
+<h1>class</h1>
+</div>
+
+<a href="35.html">selectors</a>
+
+
+
+<a href="https://www.google.com">click here</a>
+<p>email<input type="email"></p>
+<input type="number">
+<section id="first">
+<p>Lorem ipsum dolor sit amet.</p>
+<h1>iam shravya</h1>
+</section>
+<a href="#first">link</a>
+<p> text <input type="text" required></p>
+
+</body>
+</html>

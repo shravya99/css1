@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>attribute</title>
+    <style>
+    /* a{color: palevioletred;}
+    [href]{background-color: rgb(12, 55, 134);}
+    [href="idea.html"]{background-color: black;color: darkgray;}
+    [id]{color: darkturquoise;}
+    [class]{background-color: dimgray;} */
+li[class~=b]{color: brown;} /*the class name which has b in it*/
+li[class|=b]{color: red;}
+li[class^=b]{background-color: darkorange;}
+li[class^=be]{background-color: darksalmon;}
+li[class$=d]{color: deepskyblue;}
+li[class*=d]{background-color:greenyellow;}
+li[class*=c i]{background-color: seagreen;}
+    </style>
+
+</head>
+
+<body>
+    <!-- <a href="#">Lorem ipsum dolor sit amet.</a> <br> 
+    <a href="#">Lorem ipsum dolor sit amet.</a><br>  
+<a href="idea.html">iam preaparing for exam</a><br>
+<strong>iam very happy</strong><br>
+<strong id="shravya">iam very happy</strong><br>
+<strong class="color">iam very happy</strong><br> -->
+<h1>attribute presence and value selectors</h1>
+<ul>
+    <li>item1</li>
+    <li class="a">item2</li>
+    <li class="a b">tilder</li>
+    <li class="ab">surender</li>
+    <li class="b-c">pipe symbol</li>
+    <li class="b-c-d">kodipyaka</li>
+    <li class="b">family</li><br><br>
+    <li class="best">names</li>
+    <li class="friend">shravya</li>
+    <li class="dady">ksd</li>
+    <li class="BCD">family123</li>
+
+</ul>
+
+
+</body>
+</html>

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dropdown image</title>
+    <style>
+        .dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #e79a9a;
+  min-width: 160px;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+    </style>
+</head>
+<body>
+    <p>move the mouse on to the image to get the bigger image</p>
+    <div class="dropdown">
+        <img src="/Canadian-Nature.svg" alt="Canadian-Nature" width="100" height="50">
+        <div class="dropdown-content">
+        <img src="/Canadian-Nature.svg"  width="400" height="200">
+        <div class="nature" style="text-align: center;">Beautiful Canadian nature</div>
+        </div>
+      </div>
+</body>
+</html>
